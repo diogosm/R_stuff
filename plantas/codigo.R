@@ -35,6 +35,8 @@ resultado = data.table(species = plantas$species, qtd = rep('0', length(plantas$
 class(resultado$qtd) = 'integer'
 ## verificador specie X WoS_line (inicializado a cada nova busca de especie)
 hash_map = matrix(0, nrow = length(wos_data$AU), ncol = 1)
+## Remove o campo referencias citadas
+wos_data$CR = NULL
 
 ## loop atraves das especies de plantas
 for(i in 1:length(plantas$species)){
