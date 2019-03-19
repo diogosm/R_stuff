@@ -42,9 +42,10 @@ wos_data$CR = NULL
 for(i in 1:length(plantas$species)){
 	specie = plantas$species[i]
 	specie = tolower(specie)
+	specieWithUnderline = gsub(" ", "-", specie)
 	hash_map = matrix(0, nrow = length(wos_data$AU), ncol = 1)
 	
-	cat("Running species #", i, " - ", specie, "...\n")
+	cat("Running species #", i, " - ", specie, " and ", specieWithUnderline, "...\n")
 	
 	for(j in 1:length(wos_data)){
 		ans = grep(specie, wos_data[,j])
@@ -57,6 +58,18 @@ for(i in 1:length(plantas$species)){
 				}
 				## evita duplicacoes de busca na mesma linha da WoS
 				hash_map[ans[k]] = 1
+			}
+		}
+
+		## achei caso do underline
+		ansWithUnderline = grep(specieWithUnderline, wos_data[,j])
+		if(length(ansWithUnderline)>0){
+			for(k in 1:length(ansWithUnderline)){
+				if(hash_map[ansWithUnderline[k]] == 0){
+					resultado$qtd[i] = resultado$qtd[i] + 1
+				}
+				## evita duplicacoes de busca na mesma linha da WoS
+				hash_map[ansWithUnderline[k]] = 1
 			}
 		}
 	}
