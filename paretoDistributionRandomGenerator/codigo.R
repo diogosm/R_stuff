@@ -22,7 +22,7 @@ qpareto <- function(y, scale, shape)
 
 n <- 1000
 scale <- 0.1
-shape <- 1/10
+shape <- 3 
 lower_bound <- 0
 upper_bound <- 1
 
@@ -39,7 +39,7 @@ plot(ecdf(truncated_pareto_random_numbers))
 
 n <- 1000
 scale <- 0.1
-shape <- 1
+shape <- 4
 lower_bound <- 0
 upper_bound <- 1
 
