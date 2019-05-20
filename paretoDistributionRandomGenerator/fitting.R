@@ -1,5 +1,12 @@
 ##
-## References = http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html
+## References =>
+##	http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html
+##	https://github.com/cran/fitdistrplus/blob/master/tests/t-fitdist.R
+##	https://www.r-bloggers.com/fitting-distributions-with-r/
+##	https://www.r-bloggers.com/goodness-of-fit-test-in-r/
+##	http://www.sthda.com/english/wiki/chi-square-goodness-of-fit-test-in-r
+##	https://rcompanion.org/rcompanion/b_03.html
+##	https://r-forge.r-project.org/scm/viewvc.php/*checkout*/JSS/fitdistrplus/paper2JSS.pdf?root=riskassessment
 ##
 
 if(!require("MASS")) install.packages("MASS")
@@ -13,18 +20,18 @@ library("actuar")
 data=c()
 
 for(i in seq(1,28)){
-	data=append(data, 10)
+	data=append(data, 10.0)
 }
 
 for(i in seq(1,67)){
-	data=append(data, 20)
+	data=append(data, 20.0)
 }
 
 for(i in seq(1,5)){
-	data=append(data, 30)
+	data=append(data, 30.0)
 }
 
-for(i in seq(40,100,by=10)){
+for(i in seq(40.0,100.0,by=10.0)){
     data=append(data,i)
 }
 
