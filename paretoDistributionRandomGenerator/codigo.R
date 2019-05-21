@@ -1,3 +1,8 @@
+##
+## References
+##	https://stackoverflow.com/questions/14497349/draw-random-numbers-from-restricted-pareto-distribution
+##
+
 if(!require("fitdistrplus")) install.packages("fitdistrplus")
 if(!require("VGAM")) install.packages("VGAM")
 if(!require("ggplot2")) install.packages("ggplot2")
