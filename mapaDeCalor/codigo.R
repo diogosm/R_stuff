@@ -17,19 +17,22 @@ DIM <- function( ... ){
                                  dim(x) } )
 }
 
-tabela=read.table("input.txt",header=T,sep="\t",row.names=1,as.is=T)
+## Ler arquivos de entrada e os transforma para realizar operacoes
+tabela=read.table("input.txt",header=T,sep="\t",row.names=1,as.is=T,check.names=FALSE)
 data=as.matrix(tabela)
 nomes=read.table("input.txt", header=T,sep="\t")
-#data=t(data)
-#nomes=t(nomes)
+## Fim leitura entrada
 
+## Gera eixo de x e y do grafico e transforma valores em uma matriz
 rowColNames=list(nomes$Records,as.character(names(tabela)))
-#rowColNames=list(as.character(2010:2017),nomes$Records)
-#matriz=matrix(data, ncol=10,byrow=T,dimnames=rowColNames)
 matriz=matrix(data, ncol=length(names(tabela)),byrow=F,dimnames=rowColNames)
+## Fim transformacoes
 
+## Gera matriz de cores com intervalo de 20 cores
 cols <- rev(colorRampPalette(brewer.pal(6, "RdYlGn"))(20))
+## Fim cores
 
+## Salva em png
 png(file="img1.png",width=640,height=480,res=102)
 
 #print(levelplot(matriz,col.regions=heat.colors,xlab = "Year",ylab = "Subdomains",main = "Heatmap top",col.regions = cols))
@@ -52,6 +55,8 @@ print(
 		)
 )
 
+## Gera textos adicionais no gráfico
 grid.text("# of Patents", x = .80, y = .40, gp = gpar(fontface = "bold"))
 
+## Finaliza salvamento da imagem
 dev.off()
