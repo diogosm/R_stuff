@@ -1,3 +1,7 @@
+if(!require("gplots")) install.packages("gplots")
+if(!require("lattice")) install.packages("lattice")
+if(!require("raster")) install.packages("raster")
+
 library(gplots)
 library(lattice)
 require(raster)
