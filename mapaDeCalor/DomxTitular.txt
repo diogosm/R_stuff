@@ -1,8 +1,0 @@
-﻿Records	Henkel Ag & Co Kgaa (Henk-C)	Symrise Ag (Symr-C)	Amorepacific Corp (Amor-C)	Unilever Nv (Unil-C)	Asahi Breweries Ltd (Asak-C)	Shanghai Inst Technology (Shgh-C)	Lion Corp (Lioy-C)	Beiersdorf Ag (Beie-C)	Kao Corp (Kaos-C)	Procter & Gamble Co
-Farmaceutico-biotecnologias	31	37	40	30	47	12	22	74	55	73
-Quimica-materiais	29	26	10	23	0	38	43	11	61	95
-Procedimentos industriais	10	3	0	2	0	15	16	4	12	40
-Instrumentacao	6	3	3	3	0	1	9	0	27	47
-Consumo de familias e construcao civil	0	2	0	1	0	2	0	5	1	9
-Eletronica-eletricidade	0	0	0	0	0	0	0	0	0	3
-Maquinas-mecanica-transporte	0	0	0	0	0	0	0	0	0	1
