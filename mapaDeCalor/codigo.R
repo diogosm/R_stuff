@@ -1,10 +1,10 @@
-if(!require(gplots)) install.packages(gplots)
+if(!require(gplots)) install.packages("gplots")
 if(!require(lattice)) install.packages(lattice)
 if(!require(raster)) install.packages("raster")
 if(!require(grid)) install.packages(grid)
 if(!require("RColorBrewer")) install.packages("RColorBrewer")
 
-library(gplots)
+library("gplots")
 library(lattice)
 library(grid)
 library(RColorBrewer)
