@@ -9,7 +9,8 @@
 '''
 if __name__ == "__main__":
     #arq = open("sassy-0_AdjacencyGraphvizReport.txt")
-    arq = open("infocom5-0_AdjacencyGraphvizReport.txt")
+    #arq = open("infocom5-0_AdjacencyGraphvizReport.txt")
+    arq = open("rollernet-0_AdjacencyGraphvizReport.txt")
     firstLine = False
     
     for line in arq:
