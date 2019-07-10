@@ -1,0 +1,65 @@
+1. O uso das tecnologias de informação e comunicação no ensino de Química e os aspectos semióticos envolvidos na interpretação de informações acessadas via web
+    Palavras-chave: Ensino de química. Informação. Aprendizagem. Tecnologias de informação e comuni-cação. Semiótica.
+    Obs.: O uso das tecnologias de informação e comunicação (TIC) evidencia uma transformação nos processos de ensino e de aprendizagem, destacando a informação como relevante para uso das TIC em sala de aula. Este artigo, recorte de uma pesquisa de doutorado, discute o acesso às informações e o uso das TIC no ensino de química e os aspectos semióticos envolvidos na interpretação de informações para a verificação da aprendizagem. A pesquisa foi realizada em uma escola pública e investigou como os estudantes interpretam e manipulam as informações acessadas via web. Pesquisou, também, como fazem a correlação abstrata entre signos para elaboração de um raciocínio representativo de objetos ausentes. Constatou-se que a informação acessada de forma autônoma e manipulada pelos alunos se configura como incipiente para o desenvolvimento da aprendizagem, sendo fundamental a figura mediadora do professor para um uso significativo em sala de aula da informação acessada pela internet.
+
+2. [EXCLUIDO]Continuidade e descontinuidade de uso de tecnologias digitais de informação e comunicação por professores universitários das Ciências e da Saúde
+    Palavras-chave:  Tecnologias  de  informação  e  comunicação.  Ciências  da  saúde.  Ambiente  virtual  de  aprendizagem. Ensino a distância.
+    Obs.: Uso por professores.
+
+3. [EXCLUIDO]Learning styles preferences and e-learning experience of undergraduate dental students
+    Palavras-chave: Educação em odontologia; estudantes de odontologia; aprendizagem; internet; ensino.
+    Obs.: uso por estudantes.
+
+4. [EXCLUIDO]Inclusão educacional, digital e social de mulheres no interior da Paraíba: uma experiência na UFPB
+    Palavras-chave: educação superior; educação à distância; gênero; inclusão.
+    Obs.: uso por estudantes.
+
+5. Representações de alunos sobre a integração curricular das TIC no ensino básico
+    Palavras-chave: TIC – Ensino integrado – Competências transversais – Alunos – Representações.
+    Obs.: uso por estudantes e bom uso de tabelas
+
+6. [EXCLUIDO]Análise Comparativa da Familiaridade e Uso das TIC por Alunos de Odontologia
+    Palavras-Chave: Educação; Educação Médica; Tecnologias da informação; Aprendizagem
+    Obs.: uso por alunos
+
+7. [EXCLUIDO]O uso das TIC no ensino da morfologia nos cursos de saúde do Rio Grande do Norte
+    Palavras-chave: Materiais de Ensino; Tecnologia da Informação; Morfologia.
+    Obs.: uso por gestores
+
+8. [EXCLUIDO]Tecnologias de informação e comunicação e ensino semipresencial na educação médica
+    Palavras-chave: Tecnologia Educacional; Internet; Educação Médica.
+    Obs.: uso por gestores
+
+9. [EXCLUIDO]UTILIZAÇÃO DE WEBQUESTS NA FORMA DE BLOG COMO FERRAMENTA DE APRENDIZAGEM NA DISCIPLINA CIÊNCIA DOS MATERIAIS
+    Palavras-Chave: Blog; webquest; ciência dos materiais; ensino de engenharia; metodologia de ensino.
+    Obs.: uso por professores e alunos
+
+10. [EXCLUIDO]Projeto cartográfico e implementação de um protótipo de atlas escolar interativo 
+    Palavras-chave: Atlas Escolar; Cartografia Multimídia; Interatividade. 
+    Obs.: uso por professores
+
+11. [EXCLUIDO]IDENTIFICANDO OS MODELOS DIDÁTICOS DE UM GRUPO DE PROFESSORES DE QUÍMICA
+    Palavras-Chave: Modelos didáticos; crenças pedagógicas; formação profissional; desenvolvimento profissional
+    Obs.: uso por professores
+
+12. Desenvolvimento de uma ferramenta didática para o estudo da flexão composta oblíqua em seções quaisquer de concreto armado
+    Palavras-chave: Applets, Ensino de engenharia, Flexão composta oblíqua.
+    Obs.: uso por professores
+
+13. O COMPUTADOR NO ENSINO DE QUÍMICA: Impressões versus Realidade. Em Foco as Escolas Públicas da Baixada Fluminense.
+    Palavras-Chave: TICs; ensino de química; ensino médio.  
+    Obs.: uso por alunos  
+
+14. ELIMINADO
+
+15. A Utilização de Vídeos Didáticos nas Aulas de Química do Ensino Médio para Abordagem Histórica e Contextualizada do Tema Vidros
+    Obs.: uso por professores
+
+16. Ensino de Modelos para o Átomo por Meio de Recursos Multimídia em Uma Abordagem Investigativa
+    Obs.: uso por professores
+
+17. Construção de Objetos de Aprendizagem para o Ensino de Química
+    Obs.: uso por alunos, uso prévio de tecnologias por parte dos estudantes Um primeiro ponto que deve ser consi-derado é a necessidade de avaliar os conhecimentos prévios dos  alunos  com  relação  ao  uso  da  tecnologia,  para  assim  buscar um nivelamento destes, podendo este ser um motivo da insatisfação dos alunos do ensino técnico na autoavaliação da sua aprendizagem. 
+
+18. O Uso de Multirrepresentação e Ciclos de Interação em uma Aula Virtual de Química
+    Obs.: uso por professores.
