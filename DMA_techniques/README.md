@@ -1,0 +1,15 @@
+# References
+
+[1](https://rpubs.com/aaronsc32/anova-compare-more-than-two-groups)  
+[2](https://www.sheffield.ac.uk/polopoly_fs/1.536444!/file/MASH_2way_ANOVA_in_R.pdf)  
+[3](https://datascienceplus.com/compare-distribution-by-density-plots/)
+[4](https://datascienceplus.com/t-tests/)
+[5](http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r)
+[6](https://statistics.berkeley.edu/computing/r-t-tests)
+[7](https://www.statmethods.net/stats/ttest.html)
+[8](https://www.dummies.com/education/math/statistics/standard-deviation-r/)
+[9](http://www.sthda.com/english/wiki/qq-plots-quantile-quantile-plots-r-base-graphs)
+[10](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/)
+[11](https://geokrigagem.com.br/geoestatistica-no-r-licao-12-ggplot2-boxplot-tutorial/)
+[12](https://www.r-graph-gallery.com/264-control-ggplot2-boxplot-colors.html)
+[13](https://www.r-graph-gallery.com/boxplot.html)
