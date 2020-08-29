@@ -35,7 +35,7 @@ wos_data = data.frame(lapply(wos_data, function(v) {
 resultado = data.table(species = plantas$species, qtd = rep('0', length(plantas$species)))
 class(resultado$qtd) = 'integer'
 ## verificador specie X WoS_line (inicializado a cada nova busca de especie)
-hash_map = matrix(0, nrow = length(wos_data$AU), ncol = 1)
+hash_map = matrix(0, nrow = length(wos_data$X.AU.), ncol = 1)
 ## Remove o campo referencias citadas
 wos_data$CR = NULL
 
@@ -44,7 +44,7 @@ for(i in 1:length(plantas$species)){
   specie = plantas$species[i]
   specie = tolower(specie)
   specieWithUnderline = gsub(" ", "-", specie)
-  hash_map = matrix(0, nrow = length(wos_data$AU), ncol = 1)
+  hash_map = matrix(0, nrow = length(wos_data$X.AU.), ncol = 1)
   
   cat("Running species #", i, " - ", specie, " and ", specieWithUnderline, "...\n")
   
