@@ -65,6 +65,68 @@ read.wos.tw8 <- function(path = './files', nrows=1000000L) {
   list(dt, i)
 }
 
+read.derwent.tw8 <- function(path = './files', nrows=1000000L) {
+  
+  # reads list of files
+  files  <- list.files(path)
+  
+  # Getting list of fields
+  fields <- readLines(paste(path,files[1], sep="/"), n = 1)
+  fields <- substring(fields, 4)
+  fields <- strsplit(fields, "\t")[[1]]
+  
+  # creates empty data.table
+  dt <- data.table(x=rep('0',nrows))
+  l  <- list(rep("0",length(fields)))
+  i  <- 1
+  for (field in fields) {
+    l[[i]] <- rep('0',nrows)
+    i <- i + 1
+  }
+  
+  dt[, (fields) := l]
+  dt[,x:=NULL]
+  
+  i  <- 1L # row counter
+  # Iterates through all files in path
+  for (file in files) {
+    # reads a file, and saves its lines as a character vector
+    fullpath  <- paste(path,'/',file, sep='')
+    lines  <- readLines(fullpath)
+    lines <- lines[2:length(lines)]
+    
+    for (line in lines) {
+      # Splits each row into a character vector, and updates the rows in the data.table
+      row <- strsplit(line, '\t')[[1]][1:length(fields)]
+      j  <- 1L # column counter
+      for (field_value in row) {
+        # Converts empty fields to NA
+        if (field_value == "" | is.na(field_value)) {
+          field_value  <- NA
+        }
+        set(dt,i,j,field_value)
+        j  <- j + 1L
+      }
+      i  <- i + 1L
+    }
+  }
+  # deletes unused rows and columns
+  
+  
+  # converts some variables to integer: NR (number of cited references),
+  #                                     TC (times cited WoS),
+  #                                     Z9 (total Times Cited Count (WoS, BCI, and CSCD))
+  #                                     PY (publication year)
+  
+  #int_fields <- c('NR', 'TC', 'Z9', 'PY')
+  #for (int_field in int_fields) {
+  #  class(dt[[int_field]]) <- 'integer'
+  #}
+  
+  # returns data.table
+  list(dt, i)
+}
+
 ###-----------------------------------------------------------------------------------------
 
 # This function is a modified version of strsplit intended to clean the UT field at the end
@@ -310,6 +372,12 @@ read.wos  <- function(path = './files', format = 'tab_win_utf8') {
   } else if (format == 'plain_text') {
     read.wos.plain(path = path)
   }
+}
+
+# @TODO 
+#   plain_text version
+read.derwent  <- function(path = './files', format = 'tab_win_utf8') {
+  read.derwent.tw8(path = path)
 }
 
 #------------------------------------------------------------------------------------------
